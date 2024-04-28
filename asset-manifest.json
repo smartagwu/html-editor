@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/html-ally-editor/static/css/main.964fdded.css",
-    "main.js": "/html-ally-editor/static/js/main.97cf0a13.js",
-    "static/js/453.58290b47.chunk.js": "/html-ally-editor/static/js/453.58290b47.chunk.js",
-    "index.html": "/html-ally-editor/index.html",
-    "main.964fdded.css.map": "/html-ally-editor/static/css/main.964fdded.css.map",
-    "main.97cf0a13.js.map": "/html-ally-editor/static/js/main.97cf0a13.js.map",
-    "453.58290b47.chunk.js.map": "/html-ally-editor/static/js/453.58290b47.chunk.js.map"
+    "main.css": "/html-editor/static/css/main.964fdded.css",
+    "main.js": "/html-editor/static/js/main.2eb39ac9.js",
+    "static/js/453.58290b47.chunk.js": "/html-editor/static/js/453.58290b47.chunk.js",
+    "index.html": "/html-editor/index.html",
+    "main.964fdded.css.map": "/html-editor/static/css/main.964fdded.css.map",
+    "main.2eb39ac9.js.map": "/html-editor/static/js/main.2eb39ac9.js.map",
+    "453.58290b47.chunk.js.map": "/html-editor/static/js/453.58290b47.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.964fdded.css",
-    "static/js/main.97cf0a13.js"
+    "static/js/main.2eb39ac9.js"
   ]
 }
