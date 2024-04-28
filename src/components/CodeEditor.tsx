@@ -27,7 +27,7 @@ const CodeEditor = ({
     minHeight: "300px",
   });
 
-  return <div ref={editor} />;
+  return <div className="code-editor" ref={editor} />;
 };
 
 export default CodeEditor;

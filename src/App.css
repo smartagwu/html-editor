@@ -1,2 +1,14 @@
 .App {
+  height: 100%;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.App > .code-ui {
+  height: 100%;
+}
+
+.App > .code-ui label {
+  display: flex;
+  flex-direction: column;
 }
