@@ -46,7 +46,7 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://smartagwu.github.io/html-ally-editor",
+  "homepage": "https://smartagwu.github.io/html-editor",
   "devDependencies": {
     "gh-pages": "^6.1.1",
     "prettier": "3.2.5"
