@@ -3,7 +3,17 @@ import "./App.css";
 import CodeEditor from "./components/CodeEditor";
 import CodeUI from "./components/CodeUI";
 
-const DEFAULT_HTML = "<h1>My code editor HTML</h1> \n \n \n \n \n";
+const DEFAULT_HTML = `
+<form id="hs_forms" action="" method="post">
+  <h1>Sign up</h1>
+  <label for="hs-email">
+    <span>Email address</span>
+    <input type="email" name="email" id="hs-email">
+  </label>
+  <button type="submit">Submit</button>
+</form>
+
+`;
 
 function App() {
   const [code, setCode] = useState(DEFAULT_HTML);

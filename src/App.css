@@ -2,13 +2,64 @@
   height: 100%;
   display: flex;
   flex-direction: column-reverse;
+  background-color: #050038;
+  color: white;
 }
 
 .App > .code-ui {
   height: 100%;
+  position: relative;
 }
 
-.App > .code-ui label {
+.App > .code-ui > section {
+  width: fit-content;
+  height: fit-content;
+  min-width: 300px;
+}
+
+.App > .code-ui > section > form > h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 3em;
+}
+
+.App > .code-ui > section > form > label {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.App > .code-ui > section > form > label > *:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.App > .code-ui > section > form > label span {
+  font-size: 18px;
+}
+
+.App > .code-ui > section > form > label input {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #ffbfbf;
+}
+
+.App > .code-ui > section > form > button {
+  float: right;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #3f53d8;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.center {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
